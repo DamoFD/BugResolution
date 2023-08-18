@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/actions/workflow/status/DamoFD/BugResolution/run-tests.yml?logo=github&branch=main&style=for-the-badge" alt="build">
+    <img src="https://img.shields.io/github/actions/workflow/status/DamoFD/BugResolution/linter.yml?logo=github&branch=main&style=for-the-badge" alt="build">
     <img src="https://img.shields.io/github/v/release/DamoFD/BugResolution?logo=github&color=blue&style=for-the-badge" alt="release">
 </p>
 
