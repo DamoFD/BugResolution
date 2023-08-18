@@ -1,8 +1,4 @@
-<p align="center">
-    <a href="https://github.com/DamoFD/BugResolution" target="_blank">
-        <img src="" height=200>
-    </a>
-</p>
+# Bug Resolution
 
 <p align="center">
     <img src="https://img.shields.io/github/actions/workflow/status/DamoFD/BugResolution/linter.yml?logo=github&branch=main&style=for-the-badge" alt="build">
