@@ -7,16 +7,13 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Run the migrations.
+     * Create questions table
      */
     public function up(): void
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')
-                ->references('id')
-                ->on('users');
+            $table->foreignId('user_id')->constrained();
             $table->string('title');
             $table->text('body');
             $table->timestamps();
@@ -24,7 +21,7 @@ return new class extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse questions table migrations.
      */
     public function down(): void
     {
