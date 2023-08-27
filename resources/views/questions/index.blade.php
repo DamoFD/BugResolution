@@ -41,7 +41,9 @@
                                             </div>
                                         </div>
                                         <h2 class="text-lg font-medium text-gray-900">
-                                            {{ $question->title }}
+                                            <a href="{{ route('questions.show', $question) }}">
+                                                {{ $question->title }}
+                                            </a>
                                         </h2>
                                         <div>
                                             <a class="text-blue-500" href="{{ route('questions.edit', $question) }}">
